@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products -Shop Now | Online Shopping Destination</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&family=Josefin+Sans&family=Kalam:wght@700&family=Mooli&family=Poppins:wght@300;500;600;700&family=Wavefont:wght@300&display=swap');
+      </style>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+  <body>
+    
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="/images/shopping cart-logo_.png" width="100px" />
+          </div>
+          <nav>
+            <ul id="menuItems">
+              <li><a href="">Home</a></li>
+              <li><a href="">Products</a></li>
+              <li><a href="">About us</a></li>
+              <li><a href="">Contact</a></li>
+              <li><a href="">Account</a></li>
+            </ul>
+          </nav>
+          <img src="/images/cart.png" width="30px" height="30px">
+          <img src="/images/hamburger.png" class="menu-icon" onclick="menutoggle()">
+        </div>
+       
+      </div>
+<div class="small-container">
+   <div class="row row-2">
+    <h2>All Products</h2>
+    <select>
+        <option>Default sorting</option>
+        <option>Sort by price</option>
+        <option>Sort by rating</option>
+        <option>Sort by brands</option>
+        <option>sort by sale</option>
+    </select>
+   </div>
+    <div class="row">
+        <div class="col-4">
+            <img src="/images/product-1jpg.jpg" width="150px" height="200px">
+            <h4>Red T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$50.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-6.jpg" width="150px" height="200px">
+            <h4>Black t-sHIRT</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$60.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-5.jpg" width="150px" height="200px">
+            <h4>Shoe</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$70.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-8.jpg" width="150px" height="200px">
+            <h4>Black color Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$100.00</p>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="/images/product-1jpg.jpg" width="150px" height="200px">
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-6.jpg" width="150px" height="200px">
+                <h4>Black Tshirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$60.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-5.jpg" width="150px" height="200px">
+                <h4>Shoe</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full "></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$70.00</p>
+            </div>
+            <div class="col-4">
+                <img src="/images/product-8.jpg" width="150px" height="200px">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-full "></i>
+                </div>
+                <p>$100.00</p>
+            </div>
+        </div>
+    </div>
+        <!-- Latest Products -->
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+        <div class="col-4">
+            <img src="/images/product-1 (1).png" width="150px" height="200px">
+            <h4>Apple iphone</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$500.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-10.png" width="150px" height="200px">
+            <h4>Samsung s9</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$600.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-2.png" width="150px" height="200px">
+            <h4>Nokia</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+            <p>$250.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/socks-.jpg" width="150px" height="200px">
+            <h4>Socks</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/books.jpg" width="150px" height="200px">
+            <h4>books</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/bottles.jpg" width="150px" height="200px">
+            <h4>Neon Bottles</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-8.png" width="150px" height="200px">
+            <h4>iphone 6</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/pocket-watch-jpg.jpg" width="150px" height="200px">
+            <h4>Pocket watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-14.webp" width="150px" height="200px">
+            <h4>Ear Bud</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+        <div class="col-4">
+            <img src="/images/product-18.jpg" width="150px" height="200px">
+            <h4>Maroon T-Shirt</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-full "></i>
+            </div>
+            <p>$300.00</p>
+        </div>
+      </div>
+      <div class="page-btn">
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <span>4</span>
+        <span>&#8594;</span>
+      </div>
+    </div>
+</div>
+<!-- -----------Footer------------- -->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <p>Download App fpr Android and iOS mobile phones.</p>
+                <div class="app-logo">
+                    <img src="/images/playStore.png">
+                    <img src="/images/app-store.png">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="/images/shopping cart-logo_.png" width="100px">
+                <p>Our purpose is to Sustainably Make the Pleasure and Benefits of Sports Accesible to Many.</p>
+            </div>
+            <div class="footer-col-3">
+                <h3>Useful links</h3>
+               <ul>
+                <li>Coupons</li>
+                <li>Blog Post</li>
+                <li>Return Policy</li>
+                <li>Join Affiliate</li>
+               </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3>Follow us</h3>
+               <ul>
+                <li>Facebook</li>
+                <li>Twitter</li>
+                <li>YouTube</li>
+                <li>Instagram</li>
+               </ul>
+            </div>
+        </div>
+        <hr>
+        <p class="copyright">Copyright 2023 -Shop Now</p>
+    </div>
+</div>
+
+<script>
+var menuItems =document.getElementById("menuItems");
+menuItem.style.maxHeight="0px";
+function menutoggle(){
+    if(menuItem.style.maxHeight=="0px"){
+        menuItem.style.maxHeight="200px";
+    }
+   else {
+    menuItem.style.maxHeight="0px";
+    }
+}
+
+</script>
+  </body>
+</html>
